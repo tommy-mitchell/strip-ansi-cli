@@ -19,4 +19,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - run: script -q -e -c "bash | npm test"
+      - run: script -e -c "npm test"
